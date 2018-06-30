@@ -4,7 +4,7 @@
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	color: #333;
+  color: #333;
 	/*line-height: 1.5;*/
 }
 body {
@@ -18,11 +18,13 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+  /*color: orange;
+  background-color: #FFABAB;*/
+  color: #5C0A0A;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #3397db;
+  color: #3397db;
 	text-decoration: none;
 }
 a img{
@@ -41,8 +43,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   margin: auto;
 }
 #footer {
-  background-color: #444;
-  color: #aaa;
+  /*background-color: #444;
+  color: #aaa;*/
+  background-color: #FFABAB;
+  color: #5C0A0A;
   font-size: 8px;
   letter-spacing: 1px;
   padding: 25px;
@@ -90,7 +94,8 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    /*color: #0275d8;*/
+    color: #5C0A0A;
     text-decoration: none;
 }
 
@@ -105,6 +110,12 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
 }
+
+#map a {
+  /*background-color: #FFABAB;*/
+  color: #5C0A0A;
+}
+
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
@@ -162,7 +173,8 @@ nav h1 a {
   width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  /*color: #f18200;*/
+  color: #A61130;
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -176,7 +188,8 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  /*background-color: orange;*/
+  background-color: #A61130;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -212,9 +225,12 @@ nav h1 a {
   /*bottom: 0;
   position: absolute;*/
   width: 100%;
+  background-color: #FFABAB;
+  color: #5C0A0A;
 }
 #restaurant-name {
-  color: #f18200;
+  /*color: #f18200;*/
+  color: #A61130;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -252,7 +268,8 @@ nav h1 a {
   padding: 30px 40px 80px;
 }
 #reviews-container h2 {
-  color: #f58500;
+  /*color: #f58500;*/
+  color: #A61130;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
